@@ -1,0 +1,3 @@
+[submodule "src/mspgcc-binutils"]
+	path = src/mspgcc-binutils
+	url = git://git.code.sf.net/p/mspgcc/binutils
