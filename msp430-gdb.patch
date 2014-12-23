@@ -1,0 +1,17 @@
+diff --git a/bfd/bfdio.c b/bfd/bfdio.c
+index ce92781..beb025e 100644
+--- a/bfd/bfdio.c
++++ b/bfd/bfdio.c
+@@ -575,9 +575,11 @@ memory_bflush (bfd *abfd ATTRIBUTE_UNUSED)
+ static int
+ memory_bstat (bfd *abfd, struct stat *statbuf)
+ {
++	unsigned int i = 0;
++	i = sizeof(statbuf);
+   struct bfd_in_memory *bim = (struct bfd_in_memory *) abfd->iostream;
+ 
+-  memset (statbuf, 0, sizeof (statbuf));
++  memset (statbuf, 0, i);
+   statbuf->st_size = bim->size;
+ 
+   return 0;

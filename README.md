@@ -24,6 +24,6 @@ configure parameter: ./configure --target=msp430 --prefix=${PROJECT_ROOT}/build/
 
 configure parameter: ./configure --target=msp430 --enable-languages=c,c++ --prefix=${PROJECT_ROOT}/build/${OS}/${ARCH}
 
-3. gdb
+3. gdb 7.2 (ad6c20c3a242ec8db9de6970f3509fed960efedd)
 
 configure parameter: ./configure --target=msp430 --prefix=${PROJECT_ROOT}/build/${OS}/${ARCH}
