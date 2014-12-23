@@ -20,7 +20,7 @@ There are three parts of the msp430 gcc toolchain.
 
 configure parameter: ./configure --target=msp430 --prefix=${PROJECT_ROOT}/build/${OS}/${ARCH}
 
-2. gcc
+2. gcc 4.7 (47f3bbea7e0aa2ac6e219004623822e35d955ea0)
 
 configure parameter: ./configure --target=msp430 --enable-languages=c,c++ --prefix=${PROJECT_ROOT}/build/${OS}/${ARCH}
 
