@@ -16,11 +16,9 @@ git clone --recursive "git@github.com:cwyark/msp430-gcc-toochain.git"
 
 There are three parts of the msp430 gcc toolchain.
 
-1. binutils 2.22
+1. binutils (d5323c6db0d12aa3b5ece782fc52f168417db167)
 
 configure parameter: ./configure --target=msp430 --prefix=${PROJECT_ROOT}/build/${OS}/${ARCH}
-
-compiled commit: d5323c6db0d12aa3b5ece782fc52f168417db167
 
 2. gcc
 
