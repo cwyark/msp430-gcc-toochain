@@ -1,0 +1,22 @@
+diff --git a/gcc/ira-int.h b/gcc/ira-int.h
+index 9faabb5..0045a84 100644
+--- a/gcc/ira-int.h
++++ b/gcc/ira-int.h
+@@ -1138,8 +1138,17 @@ static inline bool
+ ira_allocno_object_iter_cond (ira_allocno_object_iterator *i, ira_allocno_t a,
+ 			      ira_object_t *o)
+ {
++#if 0
+   *o = ALLOCNO_OBJECT (a, i->n);
+   return i->n++ < ALLOCNO_NUM_OBJECTS (a);
++#else
++  int n = i->n++;
++   if (n < ALLOCNO_NUM_OBJECTS (a)){
++	   *o = ALLOCNO_OBJECT (a, n);
++	   return true;
++   }
++   return false;
++#endif
+ }
+ 
+ /* Loop over all objects associated with allocno A.  In each
