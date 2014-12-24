@@ -7,3 +7,6 @@
 [submodule "src/mspgcc-gcc"]
 	path = src/mspgcc-gcc
 	url = git://git.code.sf.net/p/mspgcc/gcc
+[submodule "src/mspgcc-msp430-libc"]
+	path = src/mspgcc-msp430-libc
+	url = git://git.code.sf.net/p/mspgcc/msp430-libc
