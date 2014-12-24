@@ -2,6 +2,8 @@
 
 An unofficial Msp430 Gcc Toolchain and pre-builds.
 
+The official site link is [here](http://sourceforge.net/projects/mspgcc/);
+
 You can clone the pre-builds only with
 
 ```
@@ -24,3 +26,6 @@ _gcc 4.7 (47f3bbea7e0aa2ac6e219004623822e35d955ea0)_
 
 _gdb 7.2 (ad6c20c3a242ec8db9de6970f3509fed960efedd)_
 
+msp430-libc (standard c libraries)
+
+msp430mcu (msp430 chip definations)
