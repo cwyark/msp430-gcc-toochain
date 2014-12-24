@@ -10,3 +10,6 @@
 [submodule "src/mspgcc-msp430-libc"]
 	path = src/mspgcc-msp430-libc
 	url = git://git.code.sf.net/p/mspgcc/msp430-libc
+[submodule "src/mspgcc-msp430mcu"]
+	path = src/mspgcc-msp430mcu
+	url = git://git.code.sf.net/p/mspgcc/msp430mcu
